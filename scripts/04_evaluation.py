@@ -157,16 +157,4 @@ clustered.select(
     "Provinsi"
 ).show(50, False)
 
-# =====================================================
-# Centroid Cluster
-# =====================================================
-
-print("\n===================================")
-print("CENTROID CLUSTER")
-print("===================================")
-
-for i, center in enumerate(model.clusterCenters()):
-    print(f"Cluster {i}:")
-    print(center)
-    print()
 ```
