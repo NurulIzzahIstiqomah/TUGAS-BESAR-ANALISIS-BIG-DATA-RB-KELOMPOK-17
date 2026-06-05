@@ -15,7 +15,7 @@ pendidikan di seluruh provinsi Indonesia menggunakan Apache Spark. Pipeline data
 dibangun dengan pendekatan Medallion Architecture (Bronze → Silver → Gold), mulai
 dari pengumpulan data mentah, pembersihan, integrasi, hingga feature engineering.
 Analisis dilakukan menggunakan metode PCA dan K-Means Clustering untuk
-mengelompokkan 38 provinsi berdasarkan kualitas pemerataan pendidikannya —
+mengelompokkan 38 provinsi berdasarkan kualitas pemerataan pendidikannya, 
 mencakup indikator APK, APM, rasio guru, rasio laboratorium, dan rasio murid per
 sekolah pada jenjang SD dan SMP. Hasil clustering menunjukkan bahwa sebagian besar
 wilayah Papua masih memiliki tingkat pemerataan pendidikan yang rendah dibandingkan
