@@ -28,12 +28,19 @@ Bronze Layer → Silver Layer → Gold Layer → PCA → K-Means Clustering
 
 ## Metode
 1. Data Cleaning
+Melakukan pembersihan data dengan mengidentifikasi dan menangani missing values, data duplikat, serta inkonsistensi format untuk memastikan kualitas data yang optimal sebelum proses analisis.
 2. Data Integration
+Menggabungkan data dari berbagai sumber menjadi satu dataset yang terstruktur dan konsisten sehingga seluruh variabel dapat dianalisis secara terpadu.
 3. Feature Engineering
+Melakukan pemilihan dan pengolahan fitur yang relevan untuk meningkatkan representasi informasi serta membantu model dalam mengenali pola yang lebih baik.
 4. Standardization
+Menerapkan Z-Score Standardization untuk menyamakan skala seluruh variabel sehingga tidak ada fitur yang mendominasi proses clustering akibat perbedaan rentang nilai.
 5. Principal Component Analysis (PCA)
+Mengurangi dimensi data dengan mentransformasikan variabel asli ke dalam komponen utama yang mampu mempertahankan sebagian besar variasi informasi sekaligus mengurangi kompleksitas data.
 6. K-Means Clustering
-7. Evaluasi Silhouette Score
+Mengelompokkan 38 provinsi ke dalam 3 cluster berdasarkan kemiripan karakteristik menggunakan algoritma K-Means pada data hasil transformasi PCA.
+7. Model Evaluation (Silhouette Score)
+Evaluasi kualitas clustering dilakukan menggunakan Silhouette Score dan menghasilkan nilai 0.6506, yang menunjukkan bahwa cluster yang terbentuk memiliki tingkat kohesi yang baik dan pemisahan antar cluster yang cukup jelas.
 
 ## Hasil
 
