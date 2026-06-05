@@ -1,4 +1,4 @@
-# TUGAS-BESAR-ANALISIS-BIG-DATA-RB-KELOMPOK-17
+<img width="599" height="154" alt="image" src="https://github.com/user-attachments/assets/f9114fb2-07e2-489e-b086-3762cd60e5d7" /># TUGAS-BESAR-ANALISIS-BIG-DATA-RB-KELOMPOK-17
 
 ## Implementasi Big Data Ecosystem untuk Analisis Pemerataan Pendidikan di Indonesia Menggunakan Apache Spark
 
@@ -12,6 +12,18 @@
 - Hanifah Inaya Sani (123450123)
 
 ## Deskripsi 
+Proyek ini mengimplementasikan Big Data Ecosystem untuk menganalisis pemerataan
+pendidikan di seluruh provinsi Indonesia menggunakan Apache Spark. Pipeline data
+dibangun dengan pendekatan Medallion Architecture (Bronze → Silver → Gold), mulai
+dari pengumpulan data mentah, pembersihan, integrasi, hingga feature engineering.
+Analisis dilakukan menggunakan metode PCA dan K-Means Clustering untuk
+mengelompokkan 38 provinsi berdasarkan kualitas pemerataan pendidikannya —
+mencakup indikator APK, APM, rasio guru, rasio laboratorium, dan rasio murid per
+sekolah pada jenjang SD dan SMP. Hasil clustering menunjukkan bahwa sebagian besar
+wilayah Papua masih memiliki tingkat pemerataan pendidikan yang rendah dibandingkan
+provinsi lainnya, dengan Silhouette Score sebesar 0.6506 yang menandakan kualitas
+pengelompokan yang cukup baik.
+
 
 ## Dataset
 
