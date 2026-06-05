@@ -1,5 +1,3 @@
-<img width="599" height="154" alt="image" src="https://github.com/user-attachments/assets/f9114fb2-07e2-489e-b086-3762cd60e5d7" /># TUGAS-BESAR-ANALISIS-BIG-DATA-RB-KELOMPOK-17
-
 ## Implementasi Big Data Ecosystem untuk Analisis Pemerataan Pendidikan di Indonesia Menggunakan Apache Spark
 
 ### Kelompok 17 - RB
