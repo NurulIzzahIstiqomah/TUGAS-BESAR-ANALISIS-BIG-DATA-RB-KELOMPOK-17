@@ -22,6 +22,11 @@ wilayah Papua masih memiliki tingkat pemerataan pendidikan yang rendah dibanding
 provinsi lainnya, dengan Silhouette Score sebesar 0.6506 yang menandakan kualitas
 pengelompokan yang cukup baik.
 
+## Tujuan Proyek
+Mengidentifikasi kesenjangan pemerataan pendidikan antar provinsi di Indonesia
+menggunakan indikator resmi seperti Angka Partisipasi Kasar (APK), Angka 
+Partisipasi Murni (APM), rasio guru, ketersediaan laboratorium, dan rasio murid 
+per sekolah baik pada jenjang SD maupun SMP.
 
 ## Dataset
 
